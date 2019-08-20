@@ -15,7 +15,7 @@ def nyc_pigeon_organizer(data)
   data.each { |data|
     data[1].each { |item|
       item[1].each { |pigeon|
-        if pigeon_list.keys.any?(pigeon)
+        if pigeon_list.keys.any? == pigeon
           p pigeon
       }
     }
