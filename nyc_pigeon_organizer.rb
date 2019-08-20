@@ -22,10 +22,6 @@ def nyc_pigeon_organizer(data)
     }
   }
   
-  #iterate over data hash grabbing each attribute
-   # iterate over each item in attribute
-    #  check if item includes name and add item to name in pigeon_list
-  
   pigeon_list
   
 end
