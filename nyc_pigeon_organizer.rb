@@ -15,13 +15,14 @@ def nyc_pigeon_organizer(data)
   data.each { |data|
     data[1].each { |item|
       item[1].each { |pigeon|
+      binding.pry
         if pigeon_list.keys.include?(pigeon)
           p pigeon
         end
       }
     }
   }
-  binding.pry
+  
   #iterate over data hash grabbing each attribute
    # iterate over each item in attribute
     #  check if item includes name and add item to name in pigeon_list
