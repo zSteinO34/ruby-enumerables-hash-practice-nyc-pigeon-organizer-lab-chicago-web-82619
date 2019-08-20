@@ -17,7 +17,7 @@ def nyc_pigeon_organizer(data)
       item[1].each { |pigeon|
       binding.pry
         if pigeon_list.keys.include?(pigeon)
-          p pigeon
+          pigeon_list[pigeon]
         end
       }
     }
