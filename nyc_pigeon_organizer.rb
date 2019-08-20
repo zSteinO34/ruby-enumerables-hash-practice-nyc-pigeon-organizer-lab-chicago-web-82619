@@ -12,6 +12,10 @@ def nyc_pigeon_organizer(data)
     }
   }
   
+  data.each { |attribute|
+    p attribute
+  }
+  
   #iterate over data hash grabbing each attribute
    # iterate over each item in attribute
     #  check if item includes name and add item to name in pigeon_list
