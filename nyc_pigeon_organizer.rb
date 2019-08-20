@@ -18,10 +18,9 @@ def nyc_pigeon_organizer(data)
         if pigeon_list.keys.any?(pigeon)
           p pigeon
       }
-      binding.pry
     }
   }
-  
+  binding.pry
   #iterate over data hash grabbing each attribute
    # iterate over each item in attribute
     #  check if item includes name and add item to name in pigeon_list
