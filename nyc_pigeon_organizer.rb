@@ -17,6 +17,7 @@ def nyc_pigeon_organizer(data)
       item[1].each { |pigeon|
         if pigeon_list.keys.any?(pigeon)
           p pigeon
+          binding.pry
       }
     }
   }
