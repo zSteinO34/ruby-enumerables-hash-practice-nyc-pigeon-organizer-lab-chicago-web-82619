@@ -16,6 +16,7 @@ def nyc_pigeon_organizer(data)
     data[1].each { |item|
       item[1].each { |pigeon|
         p pigeon
+        binding.pry
       }
     }
   }
