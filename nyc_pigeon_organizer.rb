@@ -13,8 +13,7 @@ def nyc_pigeon_organizer(data)
   }
   
   data.each { |data|
-  binding.pry
-    p data
+  data[1]
   }
   
   #iterate over data hash grabbing each attribute
